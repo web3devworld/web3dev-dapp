@@ -1,0 +1,12 @@
+{
+    "name": "web3dev-subgraph",
+    "version": "1.0.0",
+    "description": "Subgraph for Web3Dev DApp",
+    "scripts": {
+      "build": "graph build",
+      "deploy": "graph deploy --product hosted-service --ipfs https://api.thegraph.com/ipfs/ --node https://api.thegraph.com/deploy/"
+    },
+    "dependencies": {
+      "@graphprotocol/graph-cli": "^0.37.0"
+    }
+  }

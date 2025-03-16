@@ -1,0 +1,15 @@
+type NFT @entity {
+  id: ID!
+  tokenId: BigInt!
+  owner: Bytes!
+  price: BigInt!
+  metadataUri: String!
+  nftContract: Bytes!
+}
+
+type Stake @entity {
+  id: ID!
+  user: Bytes!
+  amount: BigInt!
+  lastClaimedTimestamp: BigInt!
+}
